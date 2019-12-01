@@ -1,0 +1,45 @@
+﻿@model IEnumerable<CommunityPage.Models.ContactInfo>
+
+@{
+    Layout = "_SpecialLayout";
+    ViewBag.Title = "Messages";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Messages</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+</head>
+<body>
+    <div class="panel-body"> <h2> Messages</h2></div>
+    <div>
+        <table class="table table-sm table-striped table-bordered">
+
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Message</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (CommunityPage.Models.ContactInfo r in Model)
+                {
+                    <tr>
+                        <td>@r.Name</td>
+                        <td>@r.Email</td>
+                        <td>@r.UserMessage</td>
+                        <td>@r.Reply</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+    Want to send a<a class="nav-link" asp-controller="UserReply" asp-action="Replys"> reply</a> to a message?
+</body>
+</html>
+
+
+

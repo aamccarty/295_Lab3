@@ -1,0 +1,44 @@
+﻿@model CommunityPage.Models.ContactInfo 
+
+@{
+    Layout = "_DefaultLayout";
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+</head>
+<body>
+    <div class="panel panel-success">
+        <div class="panel-heading text-center"><h4>Want to join our league?</h4></div>"
+        <div class="panel-body">
+            <form class="p-a-1" asp-action="Contact" method="post">
+                <div class="form-group">
+                    <label asp-for="Name"> Your Name please:</label>
+                    <input class="form-control" asp-for="Name" />
+                </div>
+                <div class="form-group">
+                    <label asp-for="Email"> Your Email please:</label>
+                    <input class="form-control" asp-for="Email" />
+                </div>
+                <div class="form-group">
+                    <label asp-for="Phone"> Your Phone please:</label>
+                    <input class="form-control" asp-for="Phone" />
+                </div>
+                <div class="form-group">
+                    <label asp-for="UserMessage">Leave a Message</label>
+                    <textarea class="form-control" rows="5" asp-for="UserMessage"></textarea>
+                         
+                </div>
+                
+                <button class="btn btn-primary" type="submit">Submit</button>
+
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
