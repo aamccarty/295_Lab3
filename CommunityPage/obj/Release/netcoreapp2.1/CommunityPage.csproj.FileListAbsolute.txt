@@ -41,3 +41,10 @@ C:\Users\spoot\Desktop\Last year of School\CommunityPage\CommunityPage\obj\Relea
 C:\Users\spoot\Desktop\Last year of School\CommunityPage\CommunityPage\obj\Release\netcoreapp2.1\CommunityPage.dll
 C:\Users\spoot\Desktop\Last year of School\CommunityPage\CommunityPage\obj\Release\netcoreapp2.1\CommunityPage.pdb
 C:\Users\spoot\Desktop\Last year of School\CommunityPage\CommunityPage\obj\Release\netcoreapp2.1\CommunityPage.csproj.CopyComplete
+C:\Users\spoot\Desktop\Last year of School\CommunityPage\CommunityPage\obj\Release\netcoreapp2.1\Razor\Views\Lab6\ClickBait.cshtml.g.cs
+C:\Users\spoot\Desktop\Last year of School\CommunityPage\CommunityPage\obj\Release\netcoreapp2.1\Razor\Views\Lab6\EmptyData.cshtml.g.cs
+C:\Users\spoot\Desktop\Last year of School\CommunityPage\CommunityPage\obj\Release\netcoreapp2.1\Razor\Views\Lab6\Index.cshtml.g.cs
+C:\Users\spoot\Desktop\Last year of School\CommunityPage\CommunityPage\obj\Release\netcoreapp2.1\Razor\Views\Lab6\RedirectTest.cshtml.g.cs
+C:\Users\spoot\Desktop\Last year of School\CommunityPage\CommunityPage\obj\Release\netcoreapp2.1\Razor\Views\Lab6\TextTest.cshtml.g.cs
+C:\Users\spoot\Desktop\Last year of School\CommunityPage\CommunityPage\obj\Release\netcoreapp2.1\Razor\Views\Shared\_Lab6Layout.cshtml.g.cs
+C:\Users\spoot\Desktop\Last year of School\CommunityPage\CommunityPage\obj\Release\netcoreapp2.1\Razor\Views\UserReply\Replys.cshtml.g.cs

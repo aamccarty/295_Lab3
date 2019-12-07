@@ -63,7 +63,7 @@ using CommunityPage.Models;
             WriteLiteral("<!DOCTYPE html>\r\n<html>\r\n");
             EndContext();
             BeginContext(67, 47, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "34b028d65ecf47b182d5d3a1d99239d9", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ec4d535209b04b34bbf3546592260b77", async() => {
                 BeginContext(73, 34, true);
                 WriteLiteral("\r\n    <title>Add a Reply</title>\r\n");
                 EndContext();
@@ -83,7 +83,7 @@ using CommunityPage.Models;
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(116, 407, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0517d98cfdc94cae8075c29c2927e08f", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "31dd8eaf3dea4ec9a5d2256eb3727e7a", async() => {
                 BeginContext(122, 25, true);
                 WriteLiteral("\r\n    <h1>Review for <em>");
                 EndContext();
@@ -108,7 +108,7 @@ using CommunityPage.Models;
                 WriteLiteral("</blockquote>\r\n    ");
                 EndContext();
                 BeginContext(217, 297, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "93d7fd9169f740f5b9a41d4f541197ec", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6c8a514275c74b83bd460af15f0176f7", async() => {
                     BeginContext(237, 270, true);
                     WriteLiteral(@"
         <label for=""usercomment"">Your reply</label><br />
