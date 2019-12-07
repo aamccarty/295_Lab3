@@ -66,12 +66,12 @@ using CommunityPage.Models;
             WriteLiteral("<!DOCTYPE html>\r\n<html>\r\n");
             EndContext();
             BeginContext(52, 176, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "719079a546e44b13a8b5474e64560143", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "dcf1e5bcb76b47dab699608f0f750ec1", async() => {
                 BeginContext(58, 90, true);
                 WriteLiteral("\r\n    <meta name=\"viewport\" content=\"width=device-width\" />\r\n    <title>Info</title>\r\n    ");
                 EndContext();
                 BeginContext(148, 71, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "09d37c1caf484ab2b68e0654325c1acb", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "0bc6f18d4e4e4c3687a79600b40a71c6", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -105,12 +105,12 @@ using CommunityPage.Models;
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(230, 248, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d3427d71e1084f049c3aaf6dace04e95", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "df6bf4758ffb45648e7469f38e9eb6b3", async() => {
                 BeginContext(236, 106, true);
                 WriteLiteral("\r\n    <div class=\"center-block\">\r\n        Welcome to the Inner-State League Fantasy Website Info\r\n        ");
                 EndContext();
                 BeginContext(342, 45, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1eed6c4362234a559a2cf83460860519", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "fdbb2aaadc4a4875970bfa9c8ba310d5", async() => {
                     BeginContext(368, 15, true);
                     WriteLiteral("Important Dates");
                     EndContext();
@@ -132,7 +132,7 @@ using CommunityPage.Models;
                 WriteLiteral("\r\n        ");
                 EndContext();
                 BeginContext(397, 60, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "998923a48e534796af156accc2b0c288", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d69af9306d7c46009f5570c78bb365ad", async() => {
                     BeginContext(420, 33, true);
                     WriteLiteral("The current members of our league");
                     EndContext();

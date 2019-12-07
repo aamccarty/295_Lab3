@@ -12,6 +12,7 @@ namespace CommunityPage.Controllers
         [HttpGet]
         public ViewResult Replys()
         {
+            ViewBag.Message = "All Replys are Reviewed";
             return View();
         }
         [HttpPost]

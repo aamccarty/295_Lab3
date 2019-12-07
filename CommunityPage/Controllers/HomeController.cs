@@ -30,6 +30,7 @@ namespace CommunityPage.Controllers
         }
         public ViewResult People()
         {
+            ViewData["Founder"]= "Aaron McCarty";
             return View();
         }
         public ViewResult Thanks()
