@@ -54,7 +54,7 @@ using CommunityPage.Models;
             WriteLiteral("\r\n\r\n<!DOCTYPE html>\r\n\r\n<html>\r\n");
             EndContext();
             BeginContext(31, 236, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7e3ea69637c64eee8a26db9db8582351", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6866457a3bc64f68a64d608f79219872", async() => {
                 BeginContext(37, 72, true);
                 WriteLiteral("\r\n    <meta name=\"viewport\" content=\"width=device-width\" />\r\n    <title>");
                 EndContext();
@@ -84,7 +84,7 @@ using CommunityPage.Models;
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(269, 74, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d909167d194444c0ba2d61b212fc07c3", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e7931fd828ad4b81a9c55b787ea06dce", async() => {
                 BeginContext(275, 34, true);
                 WriteLiteral("\r\n    <div id=\"mainDiv\">\r\n        ");
                 EndContext();

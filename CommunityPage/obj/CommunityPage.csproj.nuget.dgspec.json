@@ -38,6 +38,12 @@
       "frameworks": {
         "netcoreapp2.1": {
           "dependencies": {
+            "Microsoft.AspNetCore.All": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.1, )",
+              "autoReferenced": true
+            },
             "Microsoft.AspNetCore.App": {
               "suppressParent": "All",
               "target": "Package",
@@ -53,9 +59,9 @@
               "target": "Package",
               "version": "[2.1.14, )"
             },
-            "Microsoft.EntityFrameworkCore.Tools": {
+            "Microsoft.EntityFrameworkCore.Tools.DotNet": {
               "target": "Package",
-              "version": "[2.1.0, )"
+              "version": "[2.0.0, )"
             },
             "Microsoft.NETCore.App": {
               "suppressParent": "All",

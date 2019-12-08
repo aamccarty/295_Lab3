@@ -10,6 +10,7 @@ namespace CommunityPage.Models
     public static class Repository
     {
         private static List<ContactInfo> responses = new List<ContactInfo>();
+        
 
         public static IEnumerable<ContactInfo> Responses
         {
@@ -23,5 +24,6 @@ namespace CommunityPage.Models
             responses.Add(response);
         }
         
+
     }
 }

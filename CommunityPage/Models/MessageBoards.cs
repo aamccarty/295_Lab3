@@ -6,6 +6,7 @@ namespace CommunityPage.Models
 {
     public class MessageBoards
     {
+            public int MessageId { get; set; }
             public List<ContactInfo> contactInfos = new List<ContactInfo>();
             public List<UserReply> reply = new List<UserReply>();
 

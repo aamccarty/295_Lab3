@@ -9,11 +9,12 @@ namespace CommunityPage.Models
 {
     public class ContactInfo 
     {
+        [Key]
+        public int ContactId { get; set; }
         public string Name { get; set; }
         public string Email { get; set; }
         public string Phone { get; set; }
-        public string UserMessage { get; set; }
-        public UserReply Reply { get; set; }
+        public string UserMessage { get; set; } 
 
         internal void Sort(Func<object, object, int> p)
         {

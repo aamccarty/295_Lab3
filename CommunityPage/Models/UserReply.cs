@@ -7,6 +7,7 @@ namespace CommunityPage.Models
 {
     public class UserReply
     {
+            public int ReplyId { get; set; }
             public string CommentText { get; set; }
             public ContactInfo UserName { get; set; }
             public  ContactInfo UserMessage{ get; set; }
